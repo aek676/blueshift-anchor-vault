@@ -1,0 +1,21 @@
+skip_local_validator = true
+
+[toolchain]
+anchor_version = "1.2.1"
+solana_version = "4.1.2"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+blueshift_anchor_vault = "3iYuuT56p4FGKEEgvwHj8MbWdPyjGNWiFVXZtQbyyksy"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test --locked"
+
+[hooks]
