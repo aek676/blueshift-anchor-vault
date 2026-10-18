@@ -32,6 +32,7 @@ solana-message = "4"
 solana-transaction = "4"
 solana-signer = "3"
 solana-keypair = "3"
+solana-native-token = "3"
 
 
 [lints.rust]

@@ -709,6 +709,7 @@ dependencies = [
  "litesvm",
  "solana-keypair",
  "solana-message",
+ "solana-native-token",
  "solana-signer",
  "solana-transaction",
 ]
